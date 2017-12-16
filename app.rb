@@ -35,6 +35,7 @@ class App < Sinatra::Base
     end
     @number1 = params[:number1]
     @number2 = params[:number2]
+    "#{@number1 @operation @number2}"
 
 
   end
