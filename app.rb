@@ -19,7 +19,7 @@ class App < Sinatra::Base
     @number.times do
       @phrase_array << @phrase
     end
-    @phrase_array
+    @phrase_array.join
   end
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do
